@@ -1,0 +1,84 @@
+#red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: #fff;
+    position:absolute;
+    top: 0px;
+    left: :0px;
+}
+   
+#blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 101px;
+}
+    
+    #green {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: #fff;
+    position: absolute;
+    left:202px;
+    top: 0px;
+    }
+
+    #yellow {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    color: #fff;
+    position: absolute;
+    left:0px;
+    top: 101px;
+    }
+    #black {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    left:101px;
+    top: 101px;
+    }
+ #orange {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    color: #fff;
+    position: absolute;
+    left:202px;
+    top: 101px;
+    }
+#violet {
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    color: #fff;
+    position: absolute;
+    left:0px;
+    top: 202px;
+    }
+#gray {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    color: #fff;
+    position: absolute;
+    left:101px;
+    top: 202px;
+    }
+#pink {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    color: #fff;
+    position: absolute;
+    left:202px;
+    top: 202px;
+    }

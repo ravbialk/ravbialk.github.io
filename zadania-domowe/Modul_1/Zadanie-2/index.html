@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+</head>
+<body>
+
+<form action="https://formspree.io/rav_bialk@o2.pl"
+      method="POST">
+ Imię:<br>
+  <input type="text" name="Imię"><br>
+ Nazwisko:<br>
+  <input type="text" name="Nazwisko"><br>
+  E-mail:<br>
+  <input type="email" name="E-mail"><br>
+ Telefon:<br>
+  <input type="tel" name="usrtel"><br>
+  Miasto:<br>
+  <select name="Miasto">
+  <option value="Kraków">Kraków</option>
+  <option value="Warszawa">Warszawa</option>
+  <option value="Gdańsk">Gdańsk</option>
+</select><br>
+  Płeć:<br>
+  <input type="radio" name="Płeć" value="Kobieta">Female<br>
+  <input type="radio" name="Płeć" value="Mężczyzna">Male<br>
+  Zgoda na dane osobowe:<br>
+  <input type="checkbox" name="Zgoda na dane osobowe" value="TAK"> <br>
+  Wiadomość:<br>
+  <textarea name="Wiadomość" cols="30" rows="10"maxlength="3000"></textarea><br>
+Wyślij:<br>
+<input type="submit" value="Wyślij"><br>
+Wyczyść dane:<br>
+<input type="reset" value="Wyczyść dane"><br>
+
+
+</form>
+</body>
+</html>
