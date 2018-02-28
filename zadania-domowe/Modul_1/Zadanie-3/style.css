@@ -82,3 +82,91 @@
     left:202px;
     top: 202px;
     }
+
+#circle-pink {
+	width: 50px;
+	height: 50px;
+	background-color: pink;
+	border-radius: 100%;
+	margin: 25px auto 0;
+	border: 1px solid black;
+	position: relative;
+}
+#circle-grey  {
+	width: 50px;
+	height: 50px;
+	background-color: grey;
+	border-radius: 100%;
+	margin: 0px auto 0;
+	border: 1px solid black;
+position: relative;
+  left:100px;
+}
+ #circle-violet {
+	width: 50px;
+	height: 50px;
+	background-color:violet;
+	border-radius: 100%;
+	margin:-50px auto 0;
+	border: 1px solid black;
+position: relative;
+  left:200px;
+}
+#circle-green {
+	width: 50px;
+	height: 50px;
+	background-color: green;
+	border-radius: 100%;
+	margin: 50px auto 0;
+	border: 1px solid black;
+	position: relative;
+}
+#circle-red {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	border-radius: 100%;
+	margin:-55px auto 0;
+	border: 1px solid black;
+ position:relative;
+  left:100px;
+}
+ #circle-blue {
+	width: 50px;
+	height: 50px;
+	background-color:blue;
+	border-radius: 100%;
+	margin:-50px auto 0;
+	border: 1px solid black;
+position: relative;
+  left:200px;
+ }
+ #circle-orange {
+	width: 50px;
+	height: 50px;
+	background-color: orange;
+	border-radius: 100%;
+	margin: 50px auto 0;
+	border: 1px solid black;
+	position: relative;
+ }
+ #circle-yellow {
+	width: 50px;
+	height: 50px;
+	background-color: yellow;
+	border-radius: 100%;
+	margin:-55px auto 0;
+	border: 1px solid black;
+ position:relative;
+  left:100px;
+}
+#circle-black {
+	width: 50px;
+	height: 50px;
+	background-color:black;
+	border-radius: 100%;
+	margin:-50px auto 0;
+	border: 1px solid black;
+position: relative;
+left:200px;
+}
