@@ -8,27 +8,27 @@
 
 <form action="https://formspree.io/rav_bialk@o2.pl"
       method="POST">
- Imię:<br>
-  <input type="text" name="Imię"><br>
- Nazwisko:<br>
-  <input type="text" name="Nazwisko"><br>
-  E-mail:<br>
-  <input type="email" name="E-mail"><br>
- Telefon:<br>
-  <input type="tel" name="usrtel"><br>
-  Miasto:<br>
-  <select name="Miasto">
-  <option value="Kraków">Kraków</option>
-  <option value="Warszawa">Warszawa</option>
-  <option value="Gdańsk">Gdańsk</option>
+ <label for=“imie”>Imię:</label><br/>
+  <input type="text" name="imie" id="imie"><br>
+ <label for=“nazwisko”>Nazwisko:</label><br/>
+  <input type="text" name="nazwisko" id="nazwisko"><br>
+ <label for=“email”>E-mai:</label><br/>
+  <input type="email" name="email" id="email"><br>
+ <label for=“usrtel”>Telefon:</label><br/>
+  <input type="tel" name="usrtel" id="usrtel"><br>
+  <label for=“miasto”>Miasto:</label><br/>
+  <select name="miasto" id="miasto">
+  <option value="krakow">Kraków</option>
+  <option value="warszawa">Warszawa</option>
+  <option value="gdansk">Gdańsk</option>
 </select><br>
-  Płeć:<br>
-  <input type="radio" name="Płeć" value="Kobieta">Female<br>
-  <input type="radio" name="Płeć" value="Mężczyzna">Male<br>
-  Zgoda na dane osobowe:<br>
-  <input type="checkbox" name="Zgoda na dane osobowe" value="TAK"> <br>
-  Wiadomość:<br>
-  <textarea name="Wiadomość" cols="30" rows="10"maxlength="3000"></textarea><br>
+ <label for=“plec”>Płeć:</label><br/>
+  <input type="radio" name="plec" value="kobieta" id="plec">Kobieta<br>
+  <input type="radio" name="plec" value="mezczyzna" id="plec">Mężczyzna<br>
+  <label for=“zgoda”>Zgoda na dane osobowe:</label><br/>
+  <input type="checkbox" name="zgoda" value="TAK" id="zgoda"> <br>
+  <label for=“wiadomosc”>Wiadomość:</label><br/>
+  <textarea name="wiadomosc" cols="30" rows="10" maxlength="3000" id="wiadomosc"></textarea><br>
 Wyślij:<br>
 <input type="submit" value="Wyślij"><br>
 Wyczyść dane:<br>
