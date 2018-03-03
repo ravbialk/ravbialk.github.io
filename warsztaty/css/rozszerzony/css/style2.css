@@ -1,0 +1,15 @@
+li{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: aqua;
+    text-align: center;
+        
+    
+}
+
+#photo { float: left; }
+
+#photo2 { float: right; }
+p:last-child { clear: both; }
