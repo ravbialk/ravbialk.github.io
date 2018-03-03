@@ -1,0 +1,36 @@
+#p1:before{
+    content: "przed elementem";
+    color: red ;   
+}
+#p2:after{
+    content: "po elemencie";
+    color: orange;
+}
+#p1:target {
+color: blue;
+}
+
+#tekst1{
+    color:blue;
+}
+#tekst1:target{
+    color:red;
+}
+
+a{
+    color: orange;
+}
+
+a:visited{
+    color:aquamarine;
+}
+
+.client-list div:nth-child(odd){
+    background-color:pink;
+}
+.client-list div:nth-child(even){
+    background-color:green;
+}
+.client-list div:nth-child(5n+4){
+    background-color:blue;
+}
