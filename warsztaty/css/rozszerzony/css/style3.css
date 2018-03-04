@@ -1,0 +1,35 @@
+
+
+#box1 {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    display: block; 
+    transition: red 5s ease-in 2s;
+      
+}
+#box2 {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    display: block; 
+    transition: green 5s ease-in 2s;
+}
+#box3 {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    display: block;  
+    transition: blue 5s ease-in 2s;
+}
+
+#box1:hover{
+    width: 300px;
+}
+#box2:hover{
+    height: 300px;
+}
+#box3:hover{
+    height: 300px;
+    width: 300px;
+}

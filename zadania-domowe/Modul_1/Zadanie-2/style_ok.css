@@ -23,14 +23,14 @@ form select, form input[type"text"], form input[type"tel"], form input[type"emai
     background-color: #2b4a64;
     color: #fff;
     border: #2b4a64 1px solid;
-    height: 15px;
+    height: 10px;
 }
 
 form textarea {
     line-height: normal;
 }
 
-form select:focus , form input:focus, form textarea:focus {
+form select:focus, form input:focus, form textarea:focus {
     background-color: #4e708c;
     color: #fff;
     border: #2b4a64 1px solid;

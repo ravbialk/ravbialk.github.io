@@ -1,0 +1,8 @@
+div{
+
+background-image: url('Photo.png');
+background-position: center top;
+background-size: contain;
+background-repeat: repeat;
+background-attachment: fixed;
+}
