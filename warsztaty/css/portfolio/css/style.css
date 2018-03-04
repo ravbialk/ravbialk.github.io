@@ -12,6 +12,7 @@ section{
     padding: 0 80px 100px;
     width: 100%;
     background-color: #f9fcfe;
+   
 }
 section h2{
     text-align: center;
@@ -72,6 +73,11 @@ section h2 span {
 }
 /*About me*/
 
+#about{
+    overflow: hidden;
+}
+
+
 #about img{
     max-height: 350px;
     max-width: 100%;
@@ -88,4 +94,17 @@ section h2 span {
     width: 50%;
     float: left;
 }
+
+/* End About me*/
+
+/*Moje umiejętności*/
+
+#moje-umiejetnosci {
+  text-align: center;
+   
+}
+ figure{
+    display: inline-block;
+}
+
 
