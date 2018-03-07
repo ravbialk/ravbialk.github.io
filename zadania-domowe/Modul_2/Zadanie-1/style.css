@@ -1,0 +1,39 @@
+ *{
+	box-sizing: content-box;
+}
+
+body {
+	font-family: 'Verdana', sans-serif;
+	background-color: black;
+	color: #fff;
+    
+}
+
+
+
+#main-header{
+    background-image: url("img/man-1.jpg");
+    background-size: cover;
+    color: #fff;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  
+}
+#main-header .header-content  {
+    padding: 40vh;
+    text-align: left;    
+}
+#main-header .header-content h1{
+   
+    font-weight: 700;
+    font-size: 20px;
+
+    
+}
+#main-header .header-content h2{
+  
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
