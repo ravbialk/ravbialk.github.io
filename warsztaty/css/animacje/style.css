@@ -14,5 +14,5 @@ body{
 }
 
 .scale img {
-    transform: scale(3);
+    transform: scale(0.3);
 }

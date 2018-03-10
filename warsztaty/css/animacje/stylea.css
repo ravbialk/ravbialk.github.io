@@ -1,0 +1,19 @@
+/*animacja*/
+
+@keyframes resize {
+    0%, 100%{
+        height: 300px;
+        opacity: 0.1;
+    }
+    50%{
+        height: 50px;
+        opacity: 1;
+    }
+   
+}
+
+.animation img {
+    animation-name: resize;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
