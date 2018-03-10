@@ -1,0 +1,41 @@
+#rwd_container{
+    height:600px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#rwd_container h1{
+    font-size: 30px;
+}
+
+#rwd_container .bg_container{
+    height: 200px;
+    border:2px solid #000;
+    background-image: url(img/gory.png);
+    background-repeat: no-repeat;
+}
+
+#rwd_container p {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+@media(max-width:600px) {
+    body {
+        background-color: #000;
+    }
+    #rwd_container {
+        width: 95%;
+    }
+    #rwd_container h1 {
+        font-size: 10px;
+        color: #fff;
+    }
+    #rwd_container .bg_container {
+        background-image: url(img/gory_2.png);
+    }
+    #rwd_container p{
+        color: #fff;
+        font-size: 12px;
+    }
+}
