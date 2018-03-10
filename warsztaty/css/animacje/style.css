@@ -1,0 +1,18 @@
+body{
+    padding-top: 70px;
+}
+
+
+.rotate img{
+    transform:rotate(35deg);
+    transform-origin: 10% 50%;
+}
+
+
+.translate img{
+    transform: translate(150px, 300px);
+}
+
+.scale img {
+    transform: scale(3);
+}
