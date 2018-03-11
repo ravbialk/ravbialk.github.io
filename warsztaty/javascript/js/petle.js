@@ -20,8 +20,35 @@ var tablica = ["Volvo", "Mazda", "Honda", "Audi"];
 //                 } );
 
 
-var iter= 0;
-while (iter < 25) {
-    console.log ("While iteracja nr " + iter);
-    iter ++;
+//var iter= 1;
+//while (iter <= 25) {
+//    console.log ("While iteracja nr " + iter);
+//    iter ++;
+//}
+
+//var iter= 1;
+//do {
+//    console.log ("While iteracja nr " + iter);
+//    iter ++;
+//} while (iter <=25)
+    
+    
+
+// break i continue
+
+//for(var i=1; i< 15; i++){
+//    if (i>6) { 
+//        break;
+//             } else {
+//                 console.log("Obrót pętli nr " + i);
+//             }
+//}
+    
+for(var i=1; i< 15; i++){
+    if (i==4 || i==6 || i==10) { 
+       continue;
+             } else {
+                 console.log("Iteracjai nr " + i);
+             }
 }
+  
