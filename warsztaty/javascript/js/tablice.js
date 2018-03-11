@@ -27,7 +27,7 @@ console.log(imiona);
 // sprawdzenie "długości" tablicy
 
 var iloscElementówTablicy = imiona.length;
-console.log(iloscElementówTablicy);
+//console.log(iloscElementówTablicy);
 
 // robijanie tablicy na ciąg tekstowy - metoda join
 
@@ -35,4 +35,26 @@ console.log(iloscElementówTablicy);
 //var elementyTablicyString = imiona.join();
 var elementyTablicyString = imiona.join(", ");
 
-console.log(elementyTablicyString);
+//console.log(elementyTablicyString);
+
+//"odwrócenie tablicy"
+
+imiona.reverse ();
+//console.log(imiona);
+
+// sortowanie tablicy
+
+imiona.sort();
+//console.log(imiona);
+
+//sprawdzenie czy wartość w tablicy istnieje
+
+console.log(imiona.indexOf("Sandra"));
+
+
+
+
+
+
+
+
