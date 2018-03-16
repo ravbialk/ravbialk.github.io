@@ -1,0 +1,120 @@
+
+body{
+    background-color: #000;
+    color:#fff;
+}
+
+.odliczanie{
+    position: relative;
+    width:50%;
+    height:50vh;
+    text-align: center;
+    margin-top:15%; 
+    margin-left: 25%;
+    font-size:200px;
+    font-weight: 200;
+}
+.odliczanie-liczba{
+    position: absolute;
+    left:0;
+    right:0;
+}
+
+#dziesiec {
+
+    animation-name: dziesiec;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#dziewiec{
+   
+    animation-name: dziewiec;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#tekst {
+   
+    animation-name: odliczanie_text;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+
+@keyframes dziesiec {
+    0%{
+        visibility: hidden;
+    }
+    99%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+
+}
+@keyframes dziewiec {
+    0%{
+        visibility: hidden;
+    }
+    99%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+
+}
+
+/*
+
+@keyframes odliczanie_cyfry {
+    0%{
+        visibility: hidden;
+    }
+    10%{
+        visibility: visible;
+    }
+    20%{
+        visibility: visible;
+    }
+    30%{
+        visibility: visible;
+    }
+    40%{
+        visibility: visible;
+    }
+    50%{
+        visibility: visible;
+    }
+    60%{
+        visibility: visible;
+    }
+    70%{
+        visibility: visible;
+    }
+    80%{
+        visibility: visible;
+    }
+    90%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+
+}
+*/
+
+@keyframes odliczanie_text {
+    0%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+
+}

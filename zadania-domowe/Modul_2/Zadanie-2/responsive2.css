@@ -1,6 +1,56 @@
 
+/*
 @media (min-width:992px) and (max-width:1170px){
     #photo .photo1{
         width: 100%;      
                 }
+}*/
+
+
+@media(min-width:1171px) {
+    body {
+        background-color: #000;
+        text-align: left;
+        
+    }
+    #photo .photo1 {
+        height: 100%;
+    }
+    #photo .photo1 h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+        padding-top:25%;
+       
+    }
+     #photo .photo1 h2 {
+        font-size: 25px;
+         font-weight: 700;
+        color: #fff;
+         padding-top:0%;
+       
+    }
+
+   
 }
+    
+/*
+    @media(max-width:992px) {
+    body {
+        background-color: #000;
+    }
+    #photo {
+        width: 50%;
+    }
+    #photo .photo1 h1 {
+        font-size: 20px;
+        color: #fff;
+    }
+    #rwd_container .bg_container {
+        background-image: url(img/gory_2.png);
+    }
+    #rwd_container p{
+        color: #fff;
+        font-size: 12px;
+    }
+}*/

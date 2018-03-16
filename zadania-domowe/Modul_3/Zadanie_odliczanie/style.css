@@ -1,0 +1,81 @@
+
+body{
+    background-color: #000;
+    color:#fff;
+}
+
+.odliczanie{
+    position: relative;
+    width:50%;
+    height:50vh;
+    text-align: center;
+    margin-top:15%; 
+    margin-left: 25%;
+    font-size:200px;
+    font-weight: 200;
+}
+.odliczanie_liczba{
+    position: absolute;
+    left:0;
+    right:0;
+    visibility: hidden;
+    animation: 1s odliczanie_cyfry;
+    animation-fill-mode: forwards;
+}
+
+
+
+#dziewiec{
+animation-delay: 1s;
+}
+#osiem{
+animation-delay: 2s;
+}
+#siedem{
+animation-delay: 3s;
+}
+#szesc{
+animation-delay: 4s;
+}
+#piec{
+animation-delay: 5s;
+}
+#cztery{
+animation-delay: 6s;
+}
+#trzy{
+animation-delay: 7s;
+}
+#dwa{
+animation-delay: 8s;
+}
+#jeden{
+animation-delay: 9s;
+}
+#tekst{
+animation-delay: 10s;
+font-size:100px;
+}
+
+@keyframes odliczanie_cyfry {
+    0%{
+        visibility: hidden;
+    }
+    99%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+
+}
+
+@keyframes odliczanie_text {
+    0%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+
+}
