@@ -1,38 +1,41 @@
 
-
-function ksiazka 
-   (tytul, autor, przeczytana) {
+class Ksiazka {
+    constructor(tytul, autor, Boolean) {
         this.tytul = tytul;
         this.autor = autor;
-    this.przeczytana = przeczytana;
-    this.opiszKsiazke = function() {
-        if (przeczytana) {
-            var check = "przeczytana";
-        } else {
-            var check = "nieprzeczytana";
-        }
-       
-        var a = ("Książka ma tytuł " + this.tytul + " ,autorem jest " + this.autor + " i została " + check);
-        return a;
+        this.przeczytana = Boolean; 
     }
-}
- var wiedzmin = new ksiazka("Wiedzmin", "Andzrzej Sapkowski", true);
- function iloscPrzeczytanych(tablicaKsiazek) {
-    var suma = 0;
-    for (var i = 0; i < tablicaKsiazek.length; i++) {
-        console.log('iteracja elementow tablicy nr ' + i);
-        console.log(tablicaKsiazek[i].opiszKsiazke());
-        if (tablicaKsiazek[i].przeczytana === true) {
-            suma = suma + 1;
+opiszKsiazke() {
+          
+          if (this.przeczytana === true) {
+          console.log('Książka ma tytuł ' + this.tytul + ', autorem jest ' + this.autor + ' i została przeczytana.');
+          }
+          else {
+            console.log('Książka ma tytuł ' + this.tytul + ', autorem jest ' + this.autor + ' i nie została przeczytana.');
+          }
         }
-    }
-    return suma;
 }
 
+var wiedzmin = new Ksiazka('Wiedźmin', 'Andrzej Sapkowski', true);
+var mock = new Ksiazka('Mock', 'Marek Krajewski', false);
+var syn = new Ksiazka('Syn', 'Joe Nesbo', false);
 
-var naszaSzkapa = new ksiazka("Nasza szkapa", "Konopnicka", true);
+var ksiazki = [wiedzmin, mock, syn];
 
-var potop = new ksiazka("Potop", "Sienkiewicz", false);
+function iloscPrzeczytanych () {
+  var iloscKsiazekPrzeczytanych = 0;
+  
+  for (var i=0; i<ksiazki.length; i++) {
+    if (ksiazki[i].przeczytana===true) {
+      iloscKsiazekPrzeczytanych += ksiazki[i].przeczytana;
+      ksiazki[i].opiszKsiazke();
+    } else {
+      ksiazki[i].opiszKsiazke();
+    }
+  }
+  return(iloscKsiazekPrzeczytanych);
+}
 
-var dziady = new ksiazka("Dziady", "Mickiewicz", false);
-console.log('suma przeczytanych ksiazek wynosi: ' + iloscPrzeczytanych(tablicaKsiazek));
+var wynikFunkcji = iloscPrzeczytanych(ksiazki);
+console.log("Ilosć książek przeczytanych to " +wynikFunkcji);
+wynikFunkcji
