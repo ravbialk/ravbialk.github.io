@@ -7,11 +7,11 @@ var jsonOsoby = {
     ]
 }
 
+var pracownicy = jsonOsoby.pracownicy;
+
+console.log(pracownicy);
+
 jsonOsoby.pracownicy.forEach( function(element, index){
 console.log(element.firstName+ " "+ element.lastName);
 });
-
-
-
-
 
