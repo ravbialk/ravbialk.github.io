@@ -1,12 +1,4 @@
 
-/*
-@media (min-width:992px) and (max-width:1170px){
-    #photo .photo1{
-        width: 100%;      
-                }
-}*/
-
-
 @media(min-width:1171px) {
     body {
         background-color: #000;
@@ -29,28 +21,70 @@
         color: #fff;
          padding-top:0%;
        
-    }
-
+    }  
    
 }
-    
-/*
-    @media(max-width:992px) {
+
+@media(max-width:992px) {
     body {
         background-color: #000;
+        text-align: left;
+        
     }
-    #photo {
-        width: 50%;
+    #photo .photo1 {
+        height: 50%;
     }
     #photo .photo1 h1 {
         font-size: 20px;
+        font-weight: 700;
         color: #fff;
+        padding-top:25%;
+       
     }
-    #rwd_container .bg_container {
-        background-image: url(img/gory_2.png);
-    }
-    #rwd_container p{
+     #photo .photo1 h2 {
+        font-size: 25px;
+         font-weight: 700;
         color: #fff;
-        font-size: 12px;
+         padding-top:0%;
+       
     }
-}*/
+}
+    
+
+
+@media (min-width:993px) and (max-width:1170px) {
+    body {
+        background-color: #000;
+        text-align: right;
+        
+    }
+    
+    #photo .photo1{
+    height: 70%;
+    background-image: url(img/man-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    width: 100%;
+    position: absolute;
+    
+}
+
+
+    #photo .photo1 h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+        padding-top:10%;
+      
+       
+    }
+     #photo .photo1 h2 {
+        font-size: 25px;
+         font-weight: 700;
+        color: #fff;
+         padding-top:0%;
+       
+    }
+}
