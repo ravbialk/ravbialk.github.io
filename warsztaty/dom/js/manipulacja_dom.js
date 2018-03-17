@@ -12,6 +12,7 @@ mainHeader.innerHTML = "<span> Nowa zawartość h1 wstawiona w span</span>";
 
 // zmiana styli
 mainHeader.style.color = "red";
+mainHeader.style.backgroundColor = "red";
 
 
 // przypisanie klasy
@@ -23,10 +24,11 @@ mainHeader.className = "headingtext";
 console.log(mainHeader.className);
 
 
-// class List
+// classList
 
 mainHeader.classList.add("nowa-klasa");
 
 // classList usuwanie klasy
 
 mainHeader.classList.remove("headingtext");
+
