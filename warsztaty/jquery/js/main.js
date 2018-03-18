@@ -7,3 +7,5 @@ $(function(){
     $("[class='title']").css({color: "red", backgroundColor:"yellow"}); // III wersja - po klasie
     
 });
+
+
