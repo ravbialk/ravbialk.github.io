@@ -9,16 +9,25 @@ $ (function() {
     
     //ustalam każdy slajd w odpowiednim miejscu i nadaję właściwą szerokosć
     
-//    slideShow.find(".single-slide").each(function(ind) {
-//        $(this).css({
-//            width:slideWidth + "%"
-//            marginLeft : ind*slideWidth
-//            
-//        });
-//    });
+    slideShow.find(".single-slide").each(function(ind) {
+        $(this).css({
+            width:slideWidth + "%"
+            marginLeft: ind* slideWidth +"%"
+            
+        });
+    });
+    
+    // obsługa nawigacji
+    
+//    function sklideMove(ind) {
+//        if (ind<0 || ind>(slideCount-1)){
+//            return;
+//        }
+//        
+//        
+//    }
 //    
-//    
-//});
+
 
 
 
