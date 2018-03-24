@@ -13,10 +13,18 @@ html, body {
 #slider .slide-show {
     position: absolute;
     height: 100%;
+/*
     top: 0;
     left: 0;
-    width: 400%;
+*/
+/*    width: 400%;*/
     
+}
+
+#slider .slide-show .single-slide{
+    position: absolute;
+    top:0;
+    bottom: 0;
 }
 
 #slider .single-slide {
@@ -49,12 +57,21 @@ html, body {
            
 }
 
+#slider .slider-arrows button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+#slider .prev-slide {
+    position: absolute;
+    left:0;
+  
+}
 
+#slider .next-slide {
+    position: absolute;
+    right:0;
+   
+}
 
-/*
-    7. .slide-caption – ustaw pozycję absolutną i wypozycjonuj w pionie: top 50%, transform: translateY(-50%), oraz w poziomie: left 0, right 0, margin 0 auto i text-align: center; 
-Dodatkowo nadaj elementom z-index: 5, aby były ponad obrazami. Dodatkowo możesz napisom ustawić kolor czcionki na biały i wielkość na 4em. 
-    8. .slider-arrows button - wypozycjonuj na środku w pionie za pomocą pozycji absolutnej, top 50%, transform translateY(-50%)
-    9. .prev-slide – nadaj pozycję absolutną i left: 0
-    10. .next-slide - nadaj pozycję absolutną i right: 0
-    11. Stworzonej nawigacji (.prev-slide i .next-slide) nadaj z-index więcej niż 5, aby była ponad warstwą napisu na slajdzie*/
