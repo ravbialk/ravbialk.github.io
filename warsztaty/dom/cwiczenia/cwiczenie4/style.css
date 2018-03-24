@@ -1,0 +1,28 @@
+
+#kalkulator_odsetek {
+
+	border: solid 1px #000;
+
+	width: auto;
+
+	padding: 20px 15px;
+
+	display: inline-block;
+
+}
+
+
+
+#kalkulator_odsetek .kalkulator {
+
+	margin: 10px 0;
+
+}
+
+
+
+#kalkulator_odsetek .kalkulator input, #kalkulator_odsetek .kalkulator select{
+
+	margin-right: 15px;
+
+}
