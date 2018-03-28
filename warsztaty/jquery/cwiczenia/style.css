@@ -75,3 +75,65 @@ html, body {
    
 }
 
+
+tml, body {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+
+
+
+#slider {
+
+  position: relative;
+
+  width: 30%;
+
+  margin: 0 auto;
+
+  overflow: hidden;
+
+  height: 500px;
+
+}
+
+
+
+#slider .slide-show {
+
+  
+
+}
+
+
+
+#slider .slide-show .single-slide {
+
+  width: 100%;
+
+  position: absolute;
+
+  display: ;
+
+}
+
+
+
+#slider .slide-show .single-slide.active-slide {
+
+  display: block;
+
+}
+
+
+
+#slider .slide-show .single-slide img {
+
+  width: 100%;
+
+}
